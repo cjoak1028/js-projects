@@ -29,13 +29,13 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     margin: 3rem 0;
-    height: 510px;
+    height: 610px;
 }
 
 .days-container, .hours-container, .minutes-container, .seconds-container {
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     display: flex;
@@ -55,7 +55,7 @@ span {
     margin: 0;
 }
 
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width: 760px) {
     h1 {
         font-size: 4rem;
     }
@@ -66,7 +66,7 @@ span {
         align-items: center;
         justify-content: space-evenly;
         margin-top: 2rem;
-        width: 600px;
+        width: 700px;
         height: auto;
     }
 }
